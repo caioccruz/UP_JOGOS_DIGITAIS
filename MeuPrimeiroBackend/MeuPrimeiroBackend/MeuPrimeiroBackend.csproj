@@ -161,6 +161,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Content\ItensController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ItemsController.cs" />
     <Compile Include="Controllers\TipoItemsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -212,11 +213,11 @@
     <Content Include="Views\TipoItems\Details.cshtml" />
     <Content Include="Views\TipoItems\Edit.cshtml" />
     <Content Include="Views\TipoItems\Index.cshtml" />
-    <Content Include="Views\Itens\Create.cshtml" />
-    <Content Include="Views\Itens\Delete.cshtml" />
-    <Content Include="Views\Itens\Details.cshtml" />
-    <Content Include="Views\Itens\Edit.cshtml" />
-    <Content Include="Views\Itens\Index.cshtml" />
+    <Content Include="Views\Items\Create.cshtml" />
+    <Content Include="Views\Items\Delete.cshtml" />
+    <Content Include="Views\Items\Details.cshtml" />
+    <Content Include="Views\Items\Edit.cshtml" />
+    <Content Include="Views\Items\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
