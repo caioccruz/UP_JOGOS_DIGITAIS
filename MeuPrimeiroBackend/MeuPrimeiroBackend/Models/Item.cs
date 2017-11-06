@@ -13,9 +13,9 @@ namespace MeuPrimeiroBackend.Models
 
         public string Descricao { get; set; }
 
-        public int DanoMaximo { get; set; }
+        public int Altura { get; set; }
 
-        public int Raridade { get; set; }
+        public int Peso { get; set; }
 
 
         //relacionando item -->TipoItem
